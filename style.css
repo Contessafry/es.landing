@@ -21,9 +21,7 @@ ul {
   align-items: center;
   justify-content: space-around;
 }
-section {
-  display: flex;
-}
+
 section {
   padding: 20vh;
   display: flex;
@@ -87,4 +85,19 @@ input {
   color: #605555;
   font-size: 16px;
   font-family: sans-serif;
+}
+
+@media screen and (max-width: 1124px) {
+  #links {
+    gap: 15px;
+    display: flex;
+    width: 200px;
+    margin-right: -150px;
+  }
+  ul {
+    justify-content: space-between;
+  }
+  #started {
+    height: 6vh;
+  }
 }
